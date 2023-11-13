@@ -159,11 +159,13 @@ $ (my-range)
 ```
 ## Ещё примеры лямбда-функций:
 
-```
+```scheme
 $ (define (fib x) (if (< x 3) 1 (+ (fib (- x 1)) (fib (- x 2)) )))
 $ (fib 8)
 > 21
+```
 
+```scheme
 $ (define (foo x) (if (< x 2) 42 (bar (- x 1))))
 $ (define (bar x) (if (< x 2) 24 (foo (/ x 2))))
 $ (foo 3)
