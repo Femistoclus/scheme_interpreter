@@ -1,0 +1,10 @@
+{
+  "allow_change": [
+    "*.cpp",
+    "*.h",
+    "sources.cmake"
+  ],
+  "tests": "test_scheme_tidy",
+  "solutions": "private",
+  "disable_tsan" : true
+}
